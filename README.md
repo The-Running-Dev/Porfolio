@@ -10,8 +10,6 @@ v2021.02.09
 
 On my StackOverflow developer story you can see some of the projects I have worked on as well my Pluralsight assessment scores for Angular and JavaScript.
 
-By the way, Ben Richards and "The Running Dev" are my online personas, after my favorite Arnold movie, The Running Man.
-
 Now onto actual projects...
 
 ## C#/.NET
