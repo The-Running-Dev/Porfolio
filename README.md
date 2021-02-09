@@ -12,7 +12,7 @@ On my StackOverflow developer story you can see some of the projects I have work
 
 Now onto actual projects...
 
-## C#/.NET
+## C#/.NET/.NET Core
 
 * [Thum.io](https://github.com/The-Running-Dev/Thum.io)
 
