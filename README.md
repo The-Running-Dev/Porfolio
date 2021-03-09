@@ -1,6 +1,6 @@
 # Portfolio
 
-v2021.02.09
+v2021.03.09
 
 [LinkedIn](http://www.linkedin.com/in/therunningdev)
 
@@ -16,19 +16,19 @@ Now onto actual projects...
 
 * [Thum.io](https://github.com/The-Running-Dev/Thum.io)
 
-   A package and demo command line client to interact with the Thum.io screenshot API service.
+   A package and command line client to interact with the Thum.io screenshot API service.
 
 * [Starter](https://github.com/The-Running-Dev/Starter.Stage7)
 
-   A project containing "Starter Tasks", a demo project I worked on to get familiar with the technology stack of an employer.
+   A project containing "Starter Tasks", a project I worked on to get familiar with the technology stack of an employer.
 
 * [PatientViewer.NET](https://github.com/The-Running-Dev/Demo-PatientVIewer.NET)
 
-   A project I put together to showcase my .NET skills. It's a simple ASP.NET MVC/WebAPI application that displays a list of patients. The README in the repository documents the structure and implementation.
+   A project to showcase my .NET skills. It's a simple ASP.NET MVC/WebAPI application that displays a list of patients. The README in the repository documents the structure and implementation.
 
 * [Menu Creator](https://github.com/The-Running-Dev/Demo-MenuCreator)
 
-   A simple menu creator on top of .NET Core 2.2. This application represents a coding exercise I was given and expected to complete in 60 minutes. The README in the repository documents the structure and implementation.
+   A simple menu creator on top of .NET Core 2.2. This application is a coding exercise I was given and expected to complete in 60 minutes. The README in the repository documents the structure and implementation.
 
 * [Refactoring Exercise](https://github.com/The-Running-Dev/Demo-RefactoringExercise)
 
@@ -40,9 +40,9 @@ Now onto actual projects...
 
 * [Code Generator](https://github.com/The-Running-Dev/Tools-CodeGenerator)
 
-   While at Contec, I introduced the team to Dapper, a micro ORM. Over time I saw a need to generate a lot of classes based in the Repository pattern I implemented in Dapper.
+   This project uses Razor as the template engine, and given source templates, and access to the source database, generates the needed classes to implement the desired pattern.
 
-   The Code Generator uses Razor as the template engine, and given source templates, and access to the source database, generates the needed classes to implement the desired pattern.
+   Context: I introduced a team I worked with to Dapper (a micro ORM), and over time I saw a need to generate a lot of classes based in the repository pattern I implemented in Dapper.
 
 * [OctopusDeploy-CruiseControlTray](https://github.com/The-Running-Dev/OctopusDeploy-CruiseControlTray)
 
@@ -66,31 +66,43 @@ Now onto actual projects...
 
 * [PatientViewer.NG](https://github.com/The-Running-Dev/Demo-PatientVIewer.NG)
 
-   A project I put together to showcase my Angular skills. It's a simple applications that displays a list of patients. The README in the repository documents the structure and implementation.
+   A project to showcase my Angular skills. It's a simple applications that displays a list of patients. The README in the repository documents the structure and implementation.
 
-* [NetAssure](https://github.com/The-Running-Dev/Demo-NetAssure)
+* [NetAssure Client](https://github.com/The-Running-Dev/Demo-NetAssure/tree/master/web-client/src)
 
-   The last project I worked on at Inventive in Austin, Texas. It was a project for a network hardware company to manage and expose device data hosted in Zabbix, with the users being managed in Salesforce.
+   A project for a network hardware company that aims to manage and expose device data hosted in Zabbix, with the users being managed in Salesforce.
 
-   The ```NotificationService``` is a NodeJS/TypeScript project hosted as a micro-service on AWS lambda. It is used to send notifications to the user through another Lambda function when certain conditions are met.
-
-   The ```web-client``` is the combined code base for the web API (written on top of NodeJS with Express) and the web UI (written in Angular).
+   This project used Docker and Docker Compose for managing the app code and infrastructure, and TeamCity as the build server, on top of CentOS.
 
 * [Manual Tests](https://github.com/The-Running-Dev/Contec-ManualTests)
 
-   A line of business application that provided for recording manually tested equipment. One of the 2 Angular projects I put in production during my time at Contec. It was part of a bigger ASP.NET WebForms application and is not meant to run by itself.
+   A line of business application that provided for recording manually tested equipment.
+
+   One of the 2 Angular projects I put in production during my time at Contec. It was part of a bigger ASP.NET WebForms application and is not meant to run by itself.
 
 * [Repairs](https://github.com/The-Running-Dev/Contec-Repairs)
 
    Another line of business application for recording repairs to broken equipment. As with the Manual Tests project, part of a bigger ASP.NET WebForm solution.
 
-## NodeJS/TypeScript/Serverless/AWS Lambda
+## NodeJS/TypeScript
 
 * [Shopping Service](https://github.com/The-Running-Dev/Demo-ShoppingService)
 
-   The ```Shopping Service``` is a demo application as a micro service I created as a take home project for a company I interviewed with in Austin.
+   A demo application as a micro service I created as a take home project for a company I interviewed with.
 
-   It takes the user’s ZIP code, calls an external API to get the weather for that service, and then suggest the appropriate clothing to buy. It comes with a simple Angular UI to be able to test the application locally without constructing the initial API call yourself.
+   It takes the user’s ZIP code, calls an external API to get the weather for that service, and then suggest the appropriate clothing to buy. It comes with a simple Angular UI to be able to test the application locally without constructing the initial API call yourself. The UI demo no longer functions as the underlying weather API has changed.
+
+* [NetAssure API](https://github.com/The-Running-Dev/Demo-NetAssure/tree/master/web-client/server)
+
+   A project for a network hardware company that aims to manage and expose device data hosted in Zabbix.
+
+   This is the web API, written on top of NodeJS with Express and hosted on CentOS.
+
+   This project used Docker and Docker Compose for managing the app code and infrastructure, and TeamCity as the build server, on top of CentOS.
+
+* [NetAssure Notification Service](https://github.com/The-Running-Dev/Demo-NetAssure/tree/master/NotificationService)
+
+   A project that triggers sending notifications to an user when certain conditions are met. Made to be hosted as a micro-service on AWS Lambda.
 
 ## PowerShell
 
@@ -110,7 +122,7 @@ Now onto actual projects...
 
 * [Chocolatey-Core Team Packages](https://github.com/chocolatey/chocolatey-coreteampackages)
 
-   The core repository for Chocolatey packages. I contributed a dozen packages to this repository (like Spotify, JetBrains WebStorm and DataGrip, etc)
+   The core repository for Chocolatey packages. I contributed a dozen packages to this repository (like Spotify, JetBrains WebStorm and DataGrip, etc.)
 
 ## Linux/Bash
 
