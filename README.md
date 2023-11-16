@@ -1,16 +1,10 @@
 # Portfolio
 
-v2023.06.17
+v2023.11.16
 
 [LinkedIn](http://www.linkedin.com/in/therunningdev)
 
 [GitHub](https://github.com/The-Running-Dev)
-
-[StackOverflow](https://stackoverflow.com/users/story/1778866)
-
-On my StackOverflow developer story you can see some of the projects I have worked on as well my Pluralsight assessment scores for Angular and JavaScript.
-
-Now onto actual projects...
 
 ## C#/.NET/.NET Core
 
@@ -127,6 +121,24 @@ Now onto actual projects...
 * [Chocolatey-Core Team Packages](https://github.com/chocolatey/chocolatey-coreteampackages)
 
    The core repository for Chocolatey packages. I contributed a dozen packages to this repository (like Spotify, JetBrains WebStorm and DataGrip, etc.)
+
+## PowerShell/WinGet/DevOps
+
+* [WinGet-Packages](https://github.com/microsoft/winget-pkgs)
+
+   Contributions to the Windows package manager community repository. This repository contains the manifest files for the Windows Package Manager default source.
+
+   XYplorer: <https://github.com/microsoft/winget-pkgs/pull/126351>
+   XYplorer Portable: <https://github.com/microsoft/winget-pkgs/pull/126622>
+
+   The GitHub workflows for automatic update so new version will be created automatically.
+   <https://github.com/The-Running-Dev/Winget-Updates/actions/workflows/xyplorer.yml>
+   <https://github.com/The-Running-Dev/Winget-Updates/actions/workflows/xyplorer.portable.yml>
+
+   SideQuest Easy Installer: <https://github.com/microsoft/winget-pkgs/pull/126347>
+
+   The GitHub workflows for automatic update so new version will be created automatically.
+   <https://github.com/The-Running-Dev/Winget-Updates/actions/workflows/sidequest.easyinstaller.yml>
 
 ## Linux/Bash
 
