@@ -129,15 +129,19 @@ v2023.11.16
    Contributions to the Windows package manager community repository. This repository contains the manifest files for the Windows Package Manager default source.
 
    XYplorer: <https://github.com/microsoft/winget-pkgs/pull/126351>
+
    XYplorer Portable: <https://github.com/microsoft/winget-pkgs/pull/126622>
 
    The GitHub workflows for automatic update so new version will be created automatically.
+
    <https://github.com/The-Running-Dev/Winget-Updates/actions/workflows/xyplorer.yml>
+
    <https://github.com/The-Running-Dev/Winget-Updates/actions/workflows/xyplorer.portable.yml>
 
    SideQuest Easy Installer: <https://github.com/microsoft/winget-pkgs/pull/126347>
 
    The GitHub workflows for automatic update so new version will be created automatically.
+   
    <https://github.com/The-Running-Dev/Winget-Updates/actions/workflows/sidequest.easyinstaller.yml>
 
 ## Linux/Bash
